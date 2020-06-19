@@ -1,52 +1,16 @@
 .logo {
-	
-}
-
-.lnav {
-	font-family: 'Fredoka One', cursive;
-	position: absolute;
-	top: 7vw;
-	left: 15vw;
-	font-size: 3vw;
-	text-shadow: 2px 2px #ff0000, 1px 1px 5px #000000;
-
-}
-
-.lnav h3, h2, h1 {
 	display: flex;
-	padding: 1px;
-	align-self: baseline;
+	font-family: 'Fredoka One', cursive;
+	padding: 0px 1vw;
+
 }
 
-.lnav h3 {
-	position: absolute;
-	top: -4.0vw;
-	left: 9.7vw;
-	font-size: 1.5em;
-}
-
-.lnav h2 {
-	position: absolute;
-	top: -5.1vw;
-	left: 5.7vw;
-	font-size: 1.85em;
-}
-
-.lnav h1 {
-	position: absolute;
-	top: -7.4vw;
-	left: 1vw;
-	font-size: 2.5em;
-}
-
-.lnav img {
+.logo p {
+	color: #FF1654;
+	font-size: 6vw;
+	text-shadow: 2px 2px #050517, 4px 4px 3px #247BA0;
+	font-weight: bold;
 	margin: 0px;
-}
+	padding: 0px .25vw;
 
-p:hover {
-	opacity: 0.6;
-}
-
-p:active {
-	color: black;
 }

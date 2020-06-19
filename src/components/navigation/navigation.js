@@ -4,11 +4,10 @@ import './navigation.css';
 const Navigation = () => {
 	return (
 		<div className='nav'>
-			<nav className="">
-			    <p className="" href="#0">Mission</p>
-			    <p className="" href="#0">Team</p>
-			    <p className="" href="#0">Donate</p>
-			</nav>
+		    <p className="grow shadow-4">Mission</p>
+		    <p className="grow shadow-4">Team</p>
+		    <p className="grow fill shadow-4">Donate</p>
+		    {/*<p className="grow">Sign Up</p>*/}
 		</div>
 	);
 }

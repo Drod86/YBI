@@ -1,0 +1,28 @@
+.nav {
+	display: flex;
+	font-size: 1.75vw;
+	color: white;
+	align-items: flex-end;
+	padding-bottom: .5vw;
+}
+
+.nav p {
+	color: rgb(36, 123, 160);
+	justify-content: flex-end;
+	margin: 0px 1vw;
+	border: 1px solid rgb(36, 123, 160);
+	padding: .5vw 1vw;
+	border-radius: 5px;
+	width: 10vw;
+	text-align: center;
+}
+
+.nav .fill {
+	color: white;
+	border: 1px solid rgb(181, 180, 176);
+	background-color: rgb(255, 22, 84);
+}
+
+.nav .fill:active {
+	background-color: rgb(36, 123, 160);
+}

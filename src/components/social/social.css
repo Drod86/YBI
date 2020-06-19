@@ -1,0 +1,43 @@
+.soc {
+	display: flex;
+	font-size: 1.75vw;
+	color: white;
+	align-items: flex-end;
+	padding-bottom: .5vw;
+}
+
+.soc p {
+	color: rgb(36, 123, 160);
+	justify-content: flex-end;
+	margin: 0px 1vw;
+	border: 1px solid rgb(5, 5, 23);
+	padding: .5vw;
+	border-radius: 7px;
+	width: 3.25vw;
+	text-align: center;
+	background-color: #B5B4B0;
+}
+
+.soc p:active {
+	background-color: #FF1654;
+}
+
+
+.soc img {
+	margin-top: .5vw;
+	height: 1.5vw;
+}
+
+.soc .fill {
+	color: white;
+	border: 1px solid rgb(181, 180, 176);
+	background-color: rgb(36, 123, 160);
+}
+
+.soc .fill:active {
+	background-color: rgb(255, 22, 84);
+}
+
+.soc .ig img {
+	with: 30px;
+}
